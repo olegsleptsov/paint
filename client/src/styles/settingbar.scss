@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.settingbar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: $toolbar-height;
+  top: $toolbar-height;
+  box-shadow: 0 4px 2px gray;
+  z-index: 2;
+  width: 100%;
+  padding: 0 1rem;
+  background-color: $white;
+}
+
+.setting-label {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.setting-label-title {
+  margin-right: 1rem;
+}
+
+#line-width {
+  min-width: 3rem;
+}

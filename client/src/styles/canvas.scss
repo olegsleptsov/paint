@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+.canvas-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-color;
+  flex-grow: 1;
+}
+
+.canvas {
+  background-color: $white;
+  border: 1px solid black;
+}
